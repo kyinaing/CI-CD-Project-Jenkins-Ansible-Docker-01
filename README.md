@@ -52,6 +52,7 @@ And we will add hosts for docker-host in ansible hosts file
 
 ```
 ansadmin@ansible-server:/opt/docker$ cat /etc/ansible/hosts
+```
 # This is the default ansible 'hosts' file.
 #
 # It should live in /etc/ansible/hosts
@@ -61,7 +62,7 @@ ansadmin@ansible-server:/opt/docker$ cat /etc/ansible/hosts
 #   - Groups of hosts are delimited by [header] elements
 #   - You can enter hostnames or ip addresses
 #   - A hostname/ip can be a member of multiple groups
-
+```
 [ansible]
 172.31.24.126
 [dockerhost]
