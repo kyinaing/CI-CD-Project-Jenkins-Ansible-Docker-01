@@ -28,7 +28,7 @@ ssh-copy-id 172.31.3.248
 ```
 [root@dockerhost ansadmin]# cat .ssh/authorized_keys
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDfKXE88+ZMMf52VJsbWTv58xxxxxxxxxxxxxxxx99MxT8KQCh1Mp8= ansadmin@ansible-server
-
+```
 # Install Publish over SSH and add SSH server on Jenkins Server
 To send build artifact over SSH to ansible server, the installation of the "Publish over SSH" plug-in on the Jenkins server is required.
 
@@ -52,17 +52,17 @@ And we will add hosts for docker-host in ansible hosts file
 
 ```
 ansadmin@ansible-server:/opt/docker$ cat /etc/ansible/hosts
-```
-# This is the default ansible 'hosts' file.
-#
-# It should live in /etc/ansible/hosts
-#
-#   - Comments begin with the '#' character
-#   - Blank lines are ignored
-#   - Groups of hosts are delimited by [header] elements
-#   - You can enter hostnames or ip addresses
-#   - A hostname/ip can be a member of multiple groups
-```
+
+#This is the default ansible 'hosts' file.
+
+#It should live in /etc/ansible/hosts
+
+#- Comments begin with the '#' character
+#- Blank lines are ignored
+#- Groups of hosts are delimited by [header] elements
+#- You can enter hostnames or ip addresses
+#- A hostname/ip can be a member of multiple groups
+
 [ansible]
 172.31.24.126
 [dockerhost]
