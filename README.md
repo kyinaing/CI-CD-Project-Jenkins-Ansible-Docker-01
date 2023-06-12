@@ -186,7 +186,7 @@ For continous integration, we can set build triggers with Poll SCM.
 ```
 * * * * *
 ``` 
-**This is meaning of "every minute" when you say "* * * * *". Perhaps we can also set "H * * * *" to poll once per hour.**
+**This is meaning of "every minute" when you say "* * * * *". Perhaps we can also set "H * * * *" to poll once per hour.
 
 And check Ignore post-commit hooks
 ![image](https://github.com/kyinaing/CI-CD-Project-Jenkins-Ansible-Docker-01/assets/12751896/c67c84b4-f072-4e9a-9ab6-3abd4d372267)
@@ -198,7 +198,7 @@ Finnally, we will configure post-build actions.
 
 ![image](https://github.com/kyinaing/CI-CD-Project-Jenkins-Ansible-Docker-01/assets/12751896/a75a50e9-5bcd-42c9-bfe4-ce0275434da8)
 
-For the initial run, we need to manually execute the build now command and it does not require any subsequent commit changes from Git because we configure build trigger.
+**For the initial run, we need to manually execute the build now command and it does not require any subsequent commit changes from Git because we configure build trigger.
 
 ![image](https://github.com/kyinaing/CI-CD-Project-Jenkins-Ansible-Docker-01/assets/12751896/9ee6c6cf-daab-40b0-8471-67300d67e28b)
 
